@@ -28,7 +28,7 @@ app.use(cors())
 
 // Routes
 // app.get('/', (req, res) => res.send('Hello World!'))
-app.get('https://library1502.herokuapp.com/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Hola mundo')
 })
 
