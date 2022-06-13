@@ -6,11 +6,11 @@ const cors = require('cors');
 const mysql = require('mysql') // node-mysql module
 const myConnection = require('express-myconnection') // express-myconnection module
 const dbOptions = {
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: 'bixhqus5fvfltzqcrkxb-mysql.services.clever-cloud.com',
+    user: 'u6o8tg9ikps2ko7a',
+    password: 'qp728OkHvWT9JcrqpCaX',
     port: 3306,
-    database: 'library'
+    database: 'bixhqus5fvfltzqcrkxb'
 };
 
 const routes = require('./routes');
