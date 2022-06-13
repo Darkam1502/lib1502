@@ -29,7 +29,7 @@ app.use(cors())
 // Routes
 // app.get('/', (req, res) => res.send('Hello World!'))
 app.get('/', (req, res) => {
-    res.send('Hola mundo')
+    res.send('Hola mundo') 
 })
 
 app.use('/api', routes)
