@@ -7,9 +7,9 @@ POST http://localhost:3000/api HTTP/1.1
 Content-Type: application/json
 
 {
-    "titulo": "La inteligencia emocional",
-    "autor": "Daniel Goleman",
-    "edicion": 1
+    "titulo": "El mundo de sofia",
+    "autor": "Autor 2",
+    "edicion": 4
 }
 
 ###

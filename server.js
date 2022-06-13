@@ -11,6 +11,12 @@ const dbOptions = {
     password: 'qp728OkHvWT9JcrqpCaX',
     port: 3306,
     database: 'bixhqus5fvfltzqcrkxb'
+
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // port: 3306,
+    // database: 'library'
 };
 
 const routes = require('./routes');
@@ -22,7 +28,7 @@ app.use(cors())
 
 // Routes
 // app.get('/', (req, res) => res.send('Hello World!'))
-app.get('/', (req, res) => {
+app.get('https://library1502.herokuapp.com/', (req, res) => {
     res.send('Hola mundo')
 })
 
